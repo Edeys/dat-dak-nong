@@ -4,8 +4,8 @@ export const siteConfig = {
   phoneRaw: "0348579065",
   zalo: "0348579065",
   address: "Phú Xuân, Đắk Nia, Gia Nghĩa, Đắk Nông",
-  price: "230 triệu/sào (có thương lượng)",
-  pricePerSao: 230000000,
+  price: "240 triệu/sào (có thương lượng)",
+  pricePerSao: 240000000,
   areaRedBook: 19445,
   areaActual: 22000,
   sao: 1000,
@@ -17,7 +17,7 @@ export const heroContent = {
   headline: "Đất Rẫy View Thác Liêng Nung Lâm Đồng",
   subheadline: "19.445m² — Cà phê 4 tấn • Sầu riêng 3 tấn • Hồ tiêu 5 tạ — Có sẵn thu nhập mỗi năm",
   description: "Cách QL28 chỉ 600m • Điện 3 pha • Nước suối quanh năm • Địa hình thoải",
-  price: "Giá: 230 triệu/sào (có thương lượng)",
+  price: "Giá: 240 triệu/sào (có thương lượng)",
   cta: "Xem Vị Trí & Hình Ảnh Thực Tế",
   trustItems: [
     { icon: "📜", text: "Sổ đỏ chính chủ" },
@@ -98,22 +98,24 @@ export const storyContent = {
 }
 
 export const galleryContent = {
-  headline: "Hình ảnh thực tế lô đất",
+  headline: "Hình ảnh & Video thực tế lô đất",
   images: [
     { url: "images/daknong-1.jpg", alt: "Toàn cảnh view thác Liêng Nung và hồ Đắk Nia từ lô đất", caption: "View trực diện thác Liêng Nung & hồ Đắk Nia" },
-    { url: "images/daknong-2.jpg", alt: "Vườn cà phê đang cho thu hoạch trên đất", caption: "Vườn cà phê 1ha — 4 tấn nhân/năm" },
-    { url: "images/daknong-3.jpg", alt: "Vườn sầu riêng với 100 cây thu hoạch", caption: "Sầu riêng 100 cây thu hoạch — 3 tấn/năm" },
-    { url: "images/daknong-4.jpg", alt: "Vườn hồ tiêu 0.5 sào đang cho thu hoạch", caption: "Hồ tiêu 0.5 sào — 5 tạ/năm" },
-    { url: "images/daknong-5.jpg", alt: "Đường vào lô đất rộng 5-8m, ô tô vào tận nơi", caption: "Đường 5-8m, ô tô vào tận nơi" },
-    { url: "images/daknong-6.jpg", alt: "Nguồn nước suối Đắk Nia quanh năm không cạn", caption: "Suối Đắk Nia — nước tưới quanh năm" },
-    { url: "images/daknong-7.jpg", alt: "Cung trekking 2km xuyên rừng xuống thác Liêng Nung", caption: "Cung trekking 2km xuyên rừng xuống thác" },
-    { url: "images/daknong-8.jpg", alt: "Điện 3 pha và hệ thống bơm tưới", caption: "Điện 3 pha + bơm 3 pha — sẵn sàng sản xuất" },
-    { url: "images/daknong-9.jpg", alt: "Toàn cảnh lô đất từ trên cao", caption: "Toàn cảnh lô đất — địa hình thoải, dễ quy hoạch" },
-    { url: "images/daknong-10.jpg", alt: "Sầu riêng non 200 cây đang phát triển", caption: "200 cây sầu riêng con đang lớn — tương lai sinh lời" },
-    { url: "images/daknong-11.jpg", alt: "Cảnh quan hồ Đắk Nia view từ lô đất", caption: "Hồ Đắk Nia — view trực diện từ lô đất" },
-    { url: "images/daknong-12.jpg", alt: "Thác Liêng Nung đẹp hùng vĩ", caption: "Thác Liêng Nung — điểm du lịch nổi tiếng" },
-    { url: "images/daknong-13.jpg", alt: "Địa hình bằng phẳng dễ canh tác", caption: "Địa hình thoải — dễ làm đường, dễ tưới tiêu" },
-    { url: "images/daknong-14.jpg", alt: "Sổ đỏ chính chủ diện tích 19.445m²", caption: "Sổ đỏ chính chủ — sang tên nhanh chóng" },
+    { url: "images/daknong-2.jpg", alt: "Vườn cây ăn trái đang phát triển trên đất", caption: "Vườn cây xanh tốt — đất đai màu mỡ" },
+    { url: "images/daknong-3.jpg", alt: "Cảnh quan lô đất rộng rãi thoáng đãng", caption: "Không gian rộng ~2.2ha — thoải, dễ quy hoạch" },
+    { url: "images/daknong-4.jpg", alt: "Toàn cảnh lô đất từ flycam", caption: "Flycam tổng quan — địa hình thoải, view hồ" },
+    { url: "images/daknong-5.jpg", alt: "Lô đất nhìn từ trên cao với view hồ Đắk Nia", caption: "View flycam — hồ Đắk Nia & thác Liêng Nung" },
+    { url: "images/daknong-6.jpg", alt: "Sổ đỏ chính chủ diện tích 19.445m²", caption: "Sổ đỏ chính chủ — sang tên nhanh chóng" },
+    { url: "images/daknong-7.jpg", alt: "Vườn cà phê đang cho thu hoạch", caption: "Cà phê 1ha — 4 tấn nhân/năm" },
+    { url: "images/daknong-8.jpg", alt: "Vườn sầu riêng 100 cây đang thu hoạch", caption: "Sầu riêng 100 cây — 3 tấn/năm" },
+    { url: "images/daknong-9.jpg", alt: "Đường vào lô đất rộng 5-8m", caption: "Đường 5-8m, ô tô vào tận nơi" },
+    { url: "images/daknong-10.jpg", alt: "Vườn hồ tiêu 0.5 sào", caption: "Hồ tiêu 0.5 sào — 5 tạ/năm" },
+    { url: "images/daknong-11.jpg", alt: "Toàn cảnh khu vực từ flycam", caption: "Flycam — tổng quan vị trí đắc địa" },
+  ],
+  videos: [
+    { url: "images/hero-video.mp4", poster: "images/daknong-9.jpg", alt: "Đường 5-8m, ô tô vào tận nơi", caption: "Đường 5-8m, ô tô vào tận nơi — video thực tế" },
+    { url: "images/daknong-video-2.mp4", poster: "images/daknong-7.jpg", alt: "Vườn cà phê và sầu riêng trên đất", caption: "Vườn cây xanh tốt — video tổng quan" },
+    { url: "images/daknong-video-3.mp4", poster: "images/daknong-1.jpg", alt: "Không gian lô đất rộng rãi thoáng đãng", caption: "Không gian lô đất — video thực tế" },
   ],
 }
 
@@ -217,7 +219,7 @@ export const faqContent = {
     },
     {
       q: "Giá có thương lượng không? Thủ tục mua bán thế nào?",
-      a: "Giá 230 triệu/sào (có thương lượng). Đặt cọc → Công chứng hợp đồng → Nộp hồ sơ → Đóng thuế → Nhận sổ mới (15-30 ngày). Hoa hồng đầy đủ cho môi giới.",
+      a: "Giá 240 triệu/sào (có thương lượng). Đặt cọc → Công chứng hợp đồng → Nộp hồ sơ → Đóng thuế → Nhận sổ mới (15-30 ngày). Hoa hồng đầy đủ cho môi giới.",
     },
   ],
 }
