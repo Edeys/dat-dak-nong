@@ -130,8 +130,8 @@ export const locationContent = {
   amenities: [
     { name: "Thác Liêng Nung", distance: "2 km", time: "trekking 2km", icon: "🏔️", desc: "Thác nước hùng vĩ, điểm du lịch nổi tiếng" },
     { name: "Hồ Đắk Nia", distance: "0.5 km", time: "1 phút", icon: "🌊", desc: "Hồ nước ngọt quanh năm, view trực diện" },
-    { name: "Eva Village", distance: "~3 km", time: "5 phút", icon: "🏡", desc: "Khu du lịch sinh thái nổi tiếng Đắk Nông" },
-    { name: "Hama Village", distance: "~4 km", time: "6 phút", icon: "🏡", desc: "Khu nghỉ dưỡng homestay view hồ Đắk Nia" },
+    { name: "Eva Village", distance: "~4 km", time: "5 phút", icon: "🏡", desc: "Khu du lịch sinh thái nổi tiếng Đắk Nông" },
+    { name: "Hama Village", distance: "~1 km", time: "2 phút", icon: "🏡", desc: "Khu nghỉ dưỡng homestay view hồ Đắk Nia" },
     { name: "Trung tâm Gia Nghĩa", distance: "8 km", time: "10 phút", icon: "🏙️", desc: "Trung tâm hành chính tỉnh Đắk Nông" },
     { name: "Chợ Đắk Nia", distance: "~3 km", time: "5 phút", icon: "🛒", desc: "Chợ địa phương, đầy đủ nhu yếu phẩm" },
     { name: "QL28", distance: "600m", time: "1 phút", icon: "🛣️", desc: "Kết nối giao thông thuận tiện" },
@@ -146,7 +146,7 @@ export const investmentComparison = {
     {
       label: "Gửi ngân hàng",
       rate: "~4.5%/năm",
-      monthly: "~8.6 triệu/tháng (với 2.3 tỷ)",
+      monthly: "~8.6 triệu/tháng (với 4.5 tỷ)",
       note: "Tiền mất giá theo lạm phát, không có tài sản",
       color: "red",
     },
