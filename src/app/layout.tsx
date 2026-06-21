@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Bán Đất Rẫy View Thác Liêng Nung - 19.445m² Đắk Nia, Gia Nghĩa | Giá 230 Triệu/Sào",
+    title: "Bán Đất Rẫy View Thác Liêng Nung - 19.445m² Đắk Nia, Gia Nghĩa | Giá 240 Triệu/Sào",
   description:
     "Lô đất 19.445m² tại Phú Xuân, Đắk Nia, Gia Nghĩa, Đắk Nông. View trực diện thác Liêng Nung & hồ Đắk Nia. Có sẵn cà phê 4 tấn, sầu riêng 3 tấn, hồ tiêu 5 tạ/năm. Cách QL28 600m, điện 3 pha, nước suối quanh năm.",
   keywords: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "đất có sẵn cà phê sầu riêng",
   ],
   openGraph: {
-    title: "Bán Đất Rẫy View Thác Liêng Nung - 19.445m² Đắk Nia, Gia Nghĩa | Giá 230 Triệu/Sào",
+  title: "Bán Đất Rẫy View Thác Liêng Nung - 19.445m² Đắk Nia, Gia Nghĩa | Giá 240 Triệu/Sào",
     description:
       "View trực diện thác Liêng Nung & hồ Đắk Nia. Có sẵn cà phê 4 tấn, sầu riêng 3 tấn, hồ tiêu 5 tạ/năm.",
     type: "website",
