@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Đất Rẫy View Thác Liêng Nung – Hồ Đắk Nia",
+  name: "Đất Rẫy View Thác Liêng Nung — Lâm Đồng",
   phone: "034.857.9065",
   phoneRaw: "0348579065",
   zalo: "0348579065",
@@ -13,9 +13,9 @@ export const siteConfig = {
 }
 
 export const heroContent = {
-  badge: "VIEW TRỰC DIỆN THÁC LIÊNG NUNG & HỒ ĐẮK NIA",
-  headline: "19.445m² Đất Rẫy View Thác Liêng Nung",
-  subheadline: "19.445m² — Cà phê • Sầu riêng • Hồ tiêu — Có sẵn thu nhập hàng năm",
+  badge: "VIEW THÁC LIÊNG NUNG & HỒ ĐẮK NIA",
+  headline: "Đất Rẫy View Thác Liêng Nung Lâm Đồng",
+  subheadline: "19.445m² — Cà phê 4 tấn • Sầu riêng 3 tấn • Hồ tiêu 5 tạ — Có sẵn thu nhập mỗi năm",
   description: "Cách QL28 chỉ 600m • Điện 3 pha • Nước suối quanh năm • Địa hình thoải",
   price: "Giá: 230 triệu/sào (có thương lượng)",
   cta: "Xem Vị Trí & Hình Ảnh Thực Tế",

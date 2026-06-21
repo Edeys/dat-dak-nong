@@ -95,7 +95,7 @@ export default function Location() {
 
           <div className="bg-zinc-800 rounded-xl overflow-hidden aspect-[4/3] flex flex-col">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574.2561221484619!2d107.6006900881919!3d11.99005768618085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31737b300ab95791%3A0x2f9bde3c97b9a55e!2zTmjDoSBOZ2jhu4lwIFF14buRYyBs4buZIDI4!5e1!3m2!1svi!2s!4v1"
+              src="https://www.google.com/maps?q=11.9508838,107.7380212&z=16&output=embed"
               width="100%"
               height="60%"
               style={{ border: 0, minHeight: "250px" }}
