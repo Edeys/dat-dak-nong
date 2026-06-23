@@ -35,7 +35,8 @@ export default function Footer() {
 
         <div className="border-t border-zinc-800 pt-8 text-center text-zinc-500 text-xs">
           <p className="mb-2">© 2026 {siteConfig.address}. Tất cả quyền được bảo lưu.</p>
-          <p>Thông tin trên website chỉ mang tính tham khảo. Vui lòng liên hệ trực tiếp để xác nhận thông tin chính xác nhất.</p>
+          <p className="mb-2">Thông tin trên website chỉ mang tính tham khảo. Vui lòng liên hệ trực tiếp để xác nhận thông tin chính xác nhất.</p>
+          <p className="text-amber-500/70 text-sm font-medium">📢 Anh em môi giới có khách cứ kết nối — HH môi giới đầy đủ</p>
         </div>
       </div>
     </footer>

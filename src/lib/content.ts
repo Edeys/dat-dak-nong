@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Đất Rẫy View Thác Liêng Nung — Lâm Đồng",
+  name: "Đất Rẫy View Thác Liêng Nung — Hồ Đắk Nia",
   phone: "034.857.9065",
   phoneRaw: "0348579065",
   zalo: "0348579065",
@@ -14,15 +14,17 @@ export const siteConfig = {
 
 export const heroContent = {
   badge: "VIEW THÁC LIÊNG NUNG & HỒ ĐẮK NIA",
-  headline: "Đất Rẫy View Thác Liêng Nung Lâm Đồng",
-  subheadline: "19.445m² — Cà phê 4 tấn • Sầu riêng 3 tấn • Hồ tiêu 5 tạ — Có sẵn thu nhập mỗi năm",
-  description: "Cách QL28 chỉ 600m • Điện 3 pha • Nước suối quanh năm • Địa hình thoải",
-  price: "Giá: 240 triệu/sào (có thương lượng)",
-  cta: "Xem Vị Trí & Hình Ảnh Thực Tế",
+  headline: "Đất Rẫy View Thác Liêng Nung – Hồ Đắk Nia | Phú Xuân, Đông Gia Nghĩa",
+  subheadline:
+    "19.445m² sổ — Thực tế ~2,2ha — Cà phê 4 tấn • Sầu riêng 3 tấn • Hồ tiêu 5 tạ/năm",
+  description:
+    "Cách QL28 chỉ 600m • Đường vào 5–8m • Điện 3 pha • Nước suối Đắk Nia quanh năm",
+  price: "💰 240 triệu/sào (có thương lượng)",
+  cta: "Khám Phá Vị Trí & Hình Ảnh Thực Tế",
   trustItems: [
-    { icon: "📜", text: "Sổ đỏ chính chủ" },
-    { icon: "🌳", text: "View thác + hồ" },
-    { icon: "💰", text: "Thu nhập sẵn có" },
+    { icon: "📜", text: "Sổ đỏ chính chủ 19.445m²" },
+    { icon: "🌿", text: "Vườn cây đang cho thu nhập" },
+    { icon: "🏞️", text: "View thác Liêng Nung + hồ" },
     { icon: "🚗", text: "Ô tô vào tận nơi" },
   ],
 }
@@ -60,7 +62,7 @@ export const credibilityContent = {
     {
       icon: "🌿",
       title: "Có sẵn vườn cây ăn trái",
-      desc: "Cà phê 1ha (4 tấn/năm), sầu riêng 100 cây (3 tấn/năm) + 200 cây con, hồ tiêu 0.5 sào (5 tạ/năm).",
+      desc: "Cà phê 1ha (4 tấn nhân/năm), sầu riêng 100 cây (3 tấn/năm) + 200 cây con đang lớn, hồ tiêu 0.5 sào (5 tạ/năm).",
     },
     {
       icon: "⚡",
@@ -71,6 +73,16 @@ export const credibilityContent = {
       icon: "🛣️",
       title: "Đường 5-8m, cách QL28 chỉ 600m",
       desc: "Đường vào rộng rãi, ô tô vào tận nơi. Cách quốc lộ chỉ vài trăm mét.",
+    },
+    {
+      icon: "🥾",
+      title: "Cung trekking 2km xuống thác",
+      desc: "Cung đường xuyên rừng 2km từ lô đất xuống thác Liêng Nung — trải nghiệm độc đáo cho khách farmstay.",
+    },
+    {
+      icon: "🏡",
+      title: "Phù hợp đa năng",
+      desc: "Canh tác – tích sản – farmstay đều được. Địa hình thoải, dễ quy hoạch.",
     },
   ],
 }
@@ -130,7 +142,7 @@ export const locationContent = {
     { name: "DT 684", distance: "~2 km", desc: "Đường tỉnh kết nối các xã" },
   ],
   amenities: [
-    { name: "Thác Liêng Nung", distance: "2 km", time: "trekking 2km", icon: "🏔️", desc: "Thác nước hùng vĩ, điểm du lịch nổi tiếng" },
+    { name: "Thác Liêng Nung", distance: "2 km (trekking)", time: "trekking 2km", icon: "🏔️", desc: "Thác nước hùng vĩ, điểm du lịch nổi tiếng" },
     { name: "Hồ Đắk Nia", distance: "0.5 km", time: "1 phút", icon: "🌊", desc: "Hồ nước ngọt quanh năm, view trực diện" },
     { name: "Eva Village", distance: "~4 km", time: "5 phút", icon: "🏡", desc: "Khu du lịch sinh thái nổi tiếng Đắk Nông" },
     { name: "Hama Village", distance: "~1 km", time: "2 phút", icon: "🏡", desc: "Khu nghỉ dưỡng homestay view hồ Đắk Nia" },
@@ -163,7 +175,7 @@ export const investmentComparison = {
       label: "Mua đất vườn này",
       rate: "Thu nhập 100+ triệu/năm",
       monthly: "Cà phê + sầu riêng + tiêu",
-      note: "Có đất + vườn cây + view thác, tài sản tăng giá, vào là có thu nhập ngay",
+      note: "Có đất + vườn cây + view thác + trekking, tài sản tăng giá, vào là có thu nhập ngay",
       color: "emerald",
     },
   ],
@@ -171,8 +183,8 @@ export const investmentComparison = {
 }
 
 export const expansionContent = {
-  detail: "Hiện tại đã có 1ha cà phê (4 tấn/năm), 100 cây sầu riêng thu hoạch (3 tấn/năm) + 200 cây con, và 0.5 sào hồ tiêu (5 tạ/năm). Địa hình thoải rộng ~2.2ha, có thể mở rộng thêm farmstay, homestay hoặc trồng thêm cây ăn trái.",
-  current: "Cà phê 4 tấn/năm + Sầu riêng 3 tấn/năm + Tiêu 5 tạ/năm",
+  detail: "Hiện tại đã có 1ha cà phê (4 tấn nhân/năm), 100 cây sầu riêng thu hoạch (3 tấn/năm) + 200 cây con đang lớn, và 0.5 sào hồ tiêu (5 tạ/năm). Địa hình thoải rộng ~2.2ha, có thể mở rộng thêm farmstay, homestay hoặc trồng thêm cây ăn trái.",
+  current: "Cà phê 4 tấn/năm + Sầu riêng 3 tấn/năm + Tiêu 5 tạ/năm + 200 cây sầu riêng con",
   potential: "Tiềm năng Farmstay + Mở rộng vườn",
 }
 
@@ -211,11 +223,11 @@ export const faqContent = {
     },
     {
       q: "Thu nhập từ vườn cây có ổn định không?",
-      a: "Cà phê 1ha cho 4 tấn nhân/năm, sầu riêng 100 cây cho 3 tấn/năm, hồ tiêu 0.5 sào cho 5 tạ/năm. Đây là những cây trồng chủ lực của Tây Nguyên, đầu ra ổn định.",
+      a: "Cà phê 1ha cho 4 tấn nhân/năm, sầu riêng 100 cây cho 3 tấn/năm + 200 cây con đang lớn, hồ tiêu 0.5 sào cho 5 tạ/năm. Đây là những cây trồng chủ lực của Tây Nguyên, đầu ra ổn định.",
     },
     {
       q: "Có thể làm farmstay được không?",
-      a: "View trực diện thác Liêng Nung và hồ Đắk Nia — một trong những vị trí đẹp nhất khu vực. Địa hình thoải, rất phù hợp làm farmstay, homestay phục vụ du lịch.",
+      a: "View trực diện thác Liêng Nung và hồ Đắk Nia — một trong những vị trí đẹp nhất khu vực. Địa hình thoải, có cung trekking 2km xuyên rừng xuống thác, rất phù hợp làm farmstay, homestay.",
     },
     {
       q: "Giá có thương lượng không? Thủ tục mua bán thế nào?",
@@ -223,3 +235,5 @@ export const faqContent = {
     },
   ],
 }
+
+export const motto = "Anh em môi giới có khách cứ kết nối, HH môi giới đầy đủ"

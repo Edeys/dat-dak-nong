@@ -4,7 +4,7 @@ import "./globals.css"
 export const metadata: Metadata = {
     title: "Bán Đất Rẫy View Thác Liêng Nung - 19.445m² Đắk Nia, Gia Nghĩa | Giá 240 Triệu/Sào",
   description:
-    "Lô đất 19.445m² tại Phú Xuân, Đắk Nia, Gia Nghĩa, Đắk Nông. View trực diện thác Liêng Nung & hồ Đắk Nia. Có sẵn cà phê 4 tấn, sầu riêng 3 tấn, hồ tiêu 5 tạ/năm. Cách QL28 600m, điện 3 pha, nước suối quanh năm.",
+    "Bán đất rẫy view thác Liêng Nung & hồ Đắk Nia. 19.445m² sổ, thực tế ~2,2ha. Cà phê 4 tấn, sầu riêng 3 tấn, hồ tiêu 5 tạ/năm. Cách QL28 600m, điện 3 pha, nước suối quanh năm.",
   keywords: [
     "bán đất Đắk Nông",
     "đất view thác Liêng Nung",
