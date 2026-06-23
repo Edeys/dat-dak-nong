@@ -25,19 +25,29 @@ export default function Gallery() {
           gsap.fromTo(headlineRef.current, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" })
         },
       })
-
-      const items = gridRef.current?.querySelectorAll(".gallery-item")
-      if (items) {
-        gsap.fromTo(
-          items,
-          { opacity: 0, y: 40, scale: 0.95 },
-          { opacity: 1, y: 0, scale: 1, duration: 0.6, stagger: 0.15, ease: "power2.out", scrollTrigger: { trigger: gridRef.current, start: "top 80%" } }
-        )
-      }
     }, sectionRef)
 
     return () => ctx.revert()
   }, [])
+
+  useEffect(() => {
+    const items = gridRef.current?.querySelectorAll(".gallery-item")
+    if (items && items.length > 0) {
+      gsap.set(items, { opacity: 0, y: 0, scale: 1 })
+      gsap.to(items, {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        duration: 0.5,
+        stagger: 0.1,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: gridRef.current,
+          start: "top 85%",
+        },
+      })
+    }
+  }, [activeTab])
 
   return (
     <section ref={sectionRef} id="gallery" className="py-20 bg-zinc-900">
