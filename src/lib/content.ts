@@ -125,6 +125,7 @@ export const galleryContent = {
     { url: "images/daknong-11.jpg", alt: "Toàn cảnh khu vực từ flycam", caption: "Flycam — tổng quan vị trí đắc địa" },
   ],
   videos: [
+    { url: "videos/hero-bg.mp4", poster: "images/daknong-4.jpg", alt: "Toàn cảnh lô đất từ flycam — view thác Liêng Nung & hồ Đắk Nia", caption: "Flycam toàn cảnh — view thác Liêng Nung & hồ Đắk Nia" },
     { url: "images/hero-video.mp4", poster: "images/daknong-9.jpg", alt: "Đường 5-8m, ô tô vào tận nơi", caption: "Đường 5-8m, ô tô vào tận nơi — video thực tế" },
     { url: "images/daknong-video-1.mp4", poster: "images/daknong-7.jpg", alt: "Vườn cà phê và sầu riêng trên đất", caption: "Vườn cây xanh tốt — video tổng quan" },
     { url: "images/daknong-video-2.mp4", poster: "images/daknong-1.jpg", alt: "Không gian lô đất rộng rãi thoáng đãng", caption: "Không gian lô đất — video thực tế" },
