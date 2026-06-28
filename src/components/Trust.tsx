@@ -106,7 +106,7 @@ export default function Trust() {
 
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-10">{credibilityContent.headline}</h2>
 
-        <div ref={credRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+        <div ref={credRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
           {credibilityContent.items.map((item, i) => (
             <div key={i} className="cred-item opacity-0 bg-zinc-800 rounded-xl p-6 border border-zinc-700/50">
               <span className="text-3xl mb-3 block">{item.icon}</span>

@@ -144,7 +144,6 @@ export const locationContent = {
   ],
   amenities: [
     { name: "Thác Liêng Nung", distance: "2 km (trekking)", time: "trekking 2km", icon: "🏔️", desc: "Thác nước hùng vĩ, điểm du lịch nổi tiếng" },
-    { name: "Hồ Đắk Nia", distance: "~2.7 km", time: "5 phút", icon: "🌊", desc: "Hồ nước ngọt quanh năm, view gần lô đất" },
     { name: "Hồ Tà Đùng", distance: "~27 km", time: "30 phút", icon: "🏞️", desc: "Khu du lịch sinh thái nổi tiếng — \"Hạ Long trên cạn\" với 40 đảo đá vôi" },
     { name: "Eva Village", distance: "~4 km", time: "5 phút", icon: "🏡", desc: "Khu du lịch sinh thái nổi tiếng Đắk Nông" },
     { name: "Hama Village", distance: "~1 km", time: "2 phút", icon: "🏡", desc: "Khu nghỉ dưỡng homestay view hồ Đắk Nia" },
