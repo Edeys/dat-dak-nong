@@ -14,9 +14,9 @@ export const siteConfig = {
 
 export const heroContent = {
   badge: "VIEW THÁC LIÊNG NUNG & HỒ TÀ ĐÙNG",
-  headline: "2.2ha Đất View Thác Liêng Nung",
+  headline: "2.2ha Đất View Thác Liêng Nung – Phú Xuân, Gia Nghĩa",
   subheadline:
-    "Cách QL28 chỉ 600m • Điện 3 pha • Nước suối quanh năm",
+    "Cách QL28 600m • Điện 3 pha • Nước suối quanh năm • Sẵn cà phê, sầu riêng, tiêu",
   description:
     "",
   price: "💰 240 triệu/sào (có thương lượng)",
