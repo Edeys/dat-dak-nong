@@ -14,11 +14,11 @@ export const siteConfig = {
 
 export const heroContent = {
   badge: "VIEW THÁC LIÊNG NUNG & HỒ TÀ ĐÙNG",
-  headline: "2.2Ha Đất View Thác Liêng Nung – Sẵn 4 Tấn Cà Phê, 3 Tấn Sầu Riêng Mỗi Năm",
+  headline: "2.2ha Đất View Thác Liêng Nung",
   subheadline:
-    "Sổ hồng 19.445m² Phú Xuân | Điện 3 pha + nước suối quanh năm | Cách QL28 chỉ 600m | Vừa ở, vừa làm farmstay, vừa có thu nhập ngay",
+    "Cách QL28 chỉ 600m • Điện 3 pha • Nước suối quanh năm",
   description:
-    "Đường vào 5–8m, ô tô vào tận đất | Sổ đỏ chính chủ, sang tên ngay | Bao check quy hoạch, pháp lý",
+    "",
   price: "💰 240 triệu/sào (có thương lượng)",
   cta: "Khám Phá Vị Trí & Hình Ảnh Thực Tế",
   trustItems: [
