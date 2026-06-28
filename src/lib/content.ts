@@ -14,11 +14,11 @@ export const siteConfig = {
 
 export const heroContent = {
   badge: "VIEW THÁC LIÊNG NUNG & HỒ TÀ ĐÙNG",
-  headline: "Đất Rẫy View Thác Liêng Nung – Hồ Tà Đùng | Phú Xuân, Đông Gia Nghĩa",
+  headline: "2.2Ha Đất View Thác Liêng Nung – Sẵn 4 Tấn Cà Phê, 3 Tấn Sầu Riêng Mỗi Năm",
   subheadline:
-    "19.445m² sổ — Thực tế ~2,2ha — Cà phê 4 tấn • Sầu riêng 3 tấn • Hồ tiêu 5 tạ/năm",
+    "Sổ hồng 19.445m² Phú Xuân | Điện 3 pha + nước suối quanh năm | Cách QL28 chỉ 600m | Vừa ở, vừa làm farmstay, vừa có thu nhập ngay",
   description:
-    "Cách QL28 chỉ 600m • Đường vào 5–8m • Điện 3 pha • Nước suối Đắk Nia quanh năm",
+    "Đường vào 5–8m, ô tô vào tận đất | Sổ đỏ chính chủ, sang tên ngay | Bao check quy hoạch, pháp lý",
   price: "💰 240 triệu/sào (có thương lượng)",
   cta: "Khám Phá Vị Trí & Hình Ảnh Thực Tế",
   trustItems: [
