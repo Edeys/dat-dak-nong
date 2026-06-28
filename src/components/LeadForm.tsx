@@ -1,8 +1,9 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-declare global { interface Window { dataLayer: any[] } }
+declare global { interface Window { dataLayer: any[]; AD_LABEL?: string } }
 declare function fbq(...args: any[]): void
+declare function gtag(...args: any[]): void
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { leadFormContent, siteConfig } from "@/lib/content"
@@ -61,6 +62,9 @@ export default function LeadForm() {
     if (typeof window !== "undefined") {
       window.dataLayer?.push({ event: "lead_submitted", lead_need: formData.need })
       if (typeof fbq === "function") fbq("track", "Lead")
+      if (typeof gtag === "function" && window.AD_LABEL) {
+        gtag("event", "conversion", { send_to: "AW-16753907826/" + window.AD_LABEL })
+      }
     }
   }
 
