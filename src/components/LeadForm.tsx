@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react"
 declare global { interface Window { dataLayer: any[] } }
+declare function fbq(...args: any[]): void
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { leadFormContent, siteConfig } from "@/lib/content"
@@ -57,8 +58,9 @@ export default function LeadForm() {
     }
     setSubmitted(true)
     setSending(false)
-    if (typeof window !== "undefined" && window.dataLayer) {
-      window.dataLayer.push({ event: "lead_submitted", lead_need: formData.need })
+    if (typeof window !== "undefined") {
+      window.dataLayer?.push({ event: "lead_submitted", lead_need: formData.need })
+      if (typeof fbq === "function") fbq("track", "Lead")
     }
   }
 
