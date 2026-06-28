@@ -123,6 +123,7 @@ export const galleryContent = {
     { url: "images/daknong-9.jpg?t=1782683112", alt: "Đường vào lô đất rộng 5-8m", caption: "Đường 5-8m, ô tô vào tận nơi" },
     { url: "images/daknong-10.jpg?t=1782683112", alt: "Vườn hồ tiêu 0.5 sào", caption: "Hồ tiêu 0.5 sào — 5 tạ/năm" },
     { url: "images/daknong-11.jpg?t=1782683112", alt: "Toàn cảnh khu vực từ flycam", caption: "Flycam — tổng quan vị trí đắc địa" },
+    { url: "images/daknong-12.jpg?t=1782683112", alt: "Vườn cây xanh tốt trên lô đất", caption: "Vườn cây xanh tốt — đất đai màu mỡ" },
   ],
   videos: [
     { url: "videos/hero-bg.mp4?t=1782683112", poster: "images/daknong-4.jpg?t=1782683112", alt: "Toàn cảnh lô đất từ flycam — view thác Liêng Nung & Hồ Đắk Nia", caption: "Flycam toàn cảnh — view thác Liêng Nung & Hồ Đắk Nia" },
