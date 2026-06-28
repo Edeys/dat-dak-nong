@@ -3,6 +3,7 @@ import Gallery from "@/components/Gallery"
 import Location from "@/components/Location"
 import Trust from "@/components/Trust"
 import LeadForm from "@/components/LeadForm"
+import FAQ from "@/components/FAQ"
 import Footer from "@/components/Footer"
 import { siteConfig } from "@/lib/content"
 
@@ -47,6 +48,7 @@ export default function Home() {
       <Gallery />
       <Location />
       <Trust />
+      <FAQ />
       <LeadForm />
       <Footer />
     </>
