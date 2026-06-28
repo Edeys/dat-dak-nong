@@ -34,10 +34,10 @@ export default function Hero() {
           muted
           loop
           playsInline
-          poster="images/daknong-9.jpg?t=1782677251"
+          poster="images/daknong-9.jpg?t=1782677849"
           className="w-full h-full object-cover"
         >
-          <source src="videos/hero-bg.mp4?t=1782677251" type="video/mp4" />
+          <source src="videos/hero-bg.mp4?t=1782677849" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
       </div>
