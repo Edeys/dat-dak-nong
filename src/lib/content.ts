@@ -13,7 +13,7 @@ export const siteConfig = {
 }
 
 export const heroContent = {
-  badge: "VIEW THÁC LIÊNG NUNG & HỒ TÀ ĐÙNG",
+  badge: "ĐẤT VƯỜN VIEW THÁC LIÊNG NUNG – CÓ SẴN THU NHẬP",
   headline: "2.2ha Đất View Thác Liêng Nung – Phú Xuân, Gia Nghĩa",
   subheadline:
     "Cách QL28 600m • Điện 3 pha • Nước suối quanh năm • Sẵn cà phê, sầu riêng, tiêu",
