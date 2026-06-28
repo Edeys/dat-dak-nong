@@ -112,23 +112,23 @@ export const storyContent = {
 export const galleryContent = {
   headline: "Hình ảnh & Video thực tế lô đất",
   images: [
-    { url: "images/daknong-1.jpg?t=1782679383", alt: "Toàn cảnh view thác Liêng Nung và Hồ Tà Đùng từ lô đất", caption: "View trực diện thác Liêng Nung & Hồ Tà Đùng" },
-    { url: "images/daknong-2.jpg?t=1782679383", alt: "Vườn cây ăn trái đang phát triển trên đất", caption: "Vườn cây xanh tốt — đất đai màu mỡ" },
-    { url: "images/daknong-3.jpg?t=1782679383", alt: "Cảnh quan lô đất rộng rãi thoáng đãng", caption: "Không gian rộng ~2.2ha — thoải, dễ quy hoạch" },
-    { url: "images/daknong-4.jpg?t=1782679383", alt: "Toàn cảnh lô đất từ flycam", caption: "Flycam tổng quan — địa hình thoải, view hồ" },
-    { url: "images/daknong-5.jpg?t=1782679383", alt: "Lô đất nhìn từ trên cao với view Hồ Tà Đùng", caption: "View flycam — Hồ Tà Đùng & thác Liêng Nung" },
-    { url: "images/daknong-6.jpg?t=1782679383", alt: "Sổ đỏ chính chủ diện tích 19.445m²", caption: "Sổ đỏ chính chủ — sang tên nhanh chóng" },
-    { url: "images/daknong-7.jpg?t=1782679383", alt: "Vườn cà phê đang cho thu hoạch", caption: "Cà phê 1ha — 4 tấn nhân/năm" },
-    { url: "images/daknong-8.jpg?t=1782679383", alt: "Vườn sầu riêng 100 cây đang thu hoạch", caption: "Sầu riêng 100 cây — 3 tấn/năm" },
-    { url: "images/daknong-9.jpg?t=1782679383", alt: "Đường vào lô đất rộng 5-8m", caption: "Đường 5-8m, ô tô vào tận nơi" },
-    { url: "images/daknong-10.jpg?t=1782679383", alt: "Vườn hồ tiêu 0.5 sào", caption: "Hồ tiêu 0.5 sào — 5 tạ/năm" },
-    { url: "images/daknong-11.jpg?t=1782679383", alt: "Toàn cảnh khu vực từ flycam", caption: "Flycam — tổng quan vị trí đắc địa" },
+    { url: "images/daknong-1.jpg?t=1782681026", alt: "Toàn cảnh view thác Liêng Nung và Hồ Tà Đùng từ lô đất", caption: "View trực diện thác Liêng Nung & Hồ Tà Đùng" },
+    { url: "images/daknong-2.jpg?t=1782681026", alt: "Vườn cây ăn trái đang phát triển trên đất", caption: "Vườn cây xanh tốt — đất đai màu mỡ" },
+    { url: "images/daknong-3.jpg?t=1782681026", alt: "Cảnh quan lô đất rộng rãi thoáng đãng", caption: "Không gian rộng ~2.2ha — thoải, dễ quy hoạch" },
+    { url: "images/daknong-4.jpg?t=1782681026", alt: "Toàn cảnh lô đất từ flycam", caption: "Flycam tổng quan — địa hình thoải, view hồ" },
+    { url: "images/daknong-5.jpg?t=1782681026", alt: "Lô đất nhìn từ trên cao với view Hồ Tà Đùng", caption: "View flycam — Hồ Tà Đùng & thác Liêng Nung" },
+    { url: "images/daknong-6.jpg?t=1782681026", alt: "Sổ đỏ chính chủ diện tích 19.445m²", caption: "Sổ đỏ chính chủ — sang tên nhanh chóng" },
+    { url: "images/daknong-7.jpg?t=1782681026", alt: "Vườn cà phê đang cho thu hoạch", caption: "Cà phê 1ha — 4 tấn nhân/năm" },
+    { url: "images/daknong-8.jpg?t=1782681026", alt: "Vườn sầu riêng 100 cây đang thu hoạch", caption: "Sầu riêng 100 cây — 3 tấn/năm" },
+    { url: "images/daknong-9.jpg?t=1782681026", alt: "Đường vào lô đất rộng 5-8m", caption: "Đường 5-8m, ô tô vào tận nơi" },
+    { url: "images/daknong-10.jpg?t=1782681026", alt: "Vườn hồ tiêu 0.5 sào", caption: "Hồ tiêu 0.5 sào — 5 tạ/năm" },
+    { url: "images/daknong-11.jpg?t=1782681026", alt: "Toàn cảnh khu vực từ flycam", caption: "Flycam — tổng quan vị trí đắc địa" },
   ],
   videos: [
-    { url: "videos/hero-bg.mp4?t=1782679383", poster: "images/daknong-4.jpg?t=1782679383", alt: "Toàn cảnh lô đất từ flycam — view thác Liêng Nung & Hồ Tà Đùng", caption: "Flycam toàn cảnh — view thác Liêng Nung & Hồ Tà Đùng" },
-    { url: "images/hero-video.mp4?t=1782679383", poster: "images/daknong-9.jpg?t=1782679383", alt: "Đường 5-8m, ô tô vào tận nơi", caption: "Đường 5-8m, ô tô vào tận nơi — video thực tế" },
-    { url: "images/daknong-video-1.mp4?t=1782679383", poster: "images/daknong-7.jpg?t=1782679383", alt: "Vườn cà phê và sầu riêng trên đất", caption: "Vườn cây xanh tốt — video tổng quan" },
-    { url: "images/daknong-video-2.mp4?t=1782679383", poster: "images/daknong-1.jpg?t=1782679383", alt: "Không gian lô đất rộng rãi thoáng đãng", caption: "Không gian lô đất — video thực tế" },
+    { url: "videos/hero-bg.mp4?t=1782681026", poster: "images/daknong-4.jpg?t=1782681026", alt: "Toàn cảnh lô đất từ flycam — view thác Liêng Nung & Hồ Tà Đùng", caption: "Flycam toàn cảnh — view thác Liêng Nung & Hồ Tà Đùng" },
+    { url: "images/hero-video.mp4?t=1782681026", poster: "images/daknong-9.jpg?t=1782681026", alt: "Đường 5-8m, ô tô vào tận nơi", caption: "Đường 5-8m, ô tô vào tận nơi — video thực tế" },
+    { url: "images/daknong-video-1.mp4?t=1782681026", poster: "images/daknong-7.jpg?t=1782681026", alt: "Vườn cà phê và sầu riêng trên đất", caption: "Vườn cây xanh tốt — video tổng quan" },
+    { url: "images/daknong-video-2.mp4?t=1782681026", poster: "images/daknong-1.jpg?t=1782681026", alt: "Không gian lô đất rộng rãi thoáng đãng", caption: "Không gian lô đất — video thực tế" },
   ],
 }
 
@@ -233,6 +233,18 @@ export const faqContent = {
     {
       q: "Giá có thương lượng không? Thủ tục mua bán thế nào?",
       a: "Giá 240 triệu/sào (có thương lượng). Đặt cọc → Công chứng hợp đồng → Nộp hồ sơ → Đóng thuế → Nhận sổ mới (15-30 ngày). Hoa hồng đầy đủ cho môi giới.",
+    },
+    {
+      q: "Đất này có thể canh tác hữu cơ (organic) được không?",
+      a: "Hoàn toàn được. Lô đất đã nghỉ canh tác hơn 10 năm, không sử dụng phân bón hóa học hay thuốc diệt cỏ. Hệ vi sinh vật bản địa phục hồi tự nhiên, tạo nền tảng lý tưởng để đạt chứng nhận organic — rút ngắn thời gian chuyển đổi so với đất thông thường.",
+    },
+    {
+      q: "Có lao động tại chỗ để thuê làm vườn không?",
+      a: "Có. Khu vực Phú Xuân, Đắk Nia có lao động bản địa dồi dào, quen với việc canh tác cà phê, sầu riêng, hồ tiêu. Chi phí nhân công thấp hơn so với các tỉnh lân cận.",
+    },
+    {
+      q: "Logistics vận chuyển nông sản có thuận lợi không?",
+      a: "Cách QL28 chỉ 600m, kết nối trực tiếp với các tuyến cao tốc hướng về cảng Cát Lái và sân bay quốc tế (khoảng 4-5 giờ). Đường đất đỏ 5-8m, xe tải nhẹ vào tận nơi, thuận tiện cho vận chuyển nông sản xuất khẩu.",
     },
   ],
 }
