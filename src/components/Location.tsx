@@ -16,23 +16,23 @@ export default function Location() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      ScrollTrigger.create({ trigger: headlineRef.current, start: "top 85%", onEnter: () => {
-        gsap.fromTo(headlineRef.current, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" })
+      ScrollTrigger.create({ trigger: headlineRef.current, start: "top 95%", onEnter: () => {
+        gsap.fromTo(headlineRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" })
       }})
 
       const routeItems = routeRef.current?.querySelectorAll(".route-step")
       if (routeItems) {
-        gsap.fromTo(routeItems, { opacity: 0, x: -20 }, { opacity: 1, x: 0, stagger: 0.15, duration: 0.5, ease: "power2.out", scrollTrigger: { trigger: routeRef.current, start: "top 80%" } })
+        gsap.fromTo(routeItems, { opacity: 0, x: -20 }, { opacity: 1, x: 0, stagger: 0.1, duration: 0.3, ease: "power2.out", scrollTrigger: { trigger: routeRef.current, start: "top 90%" } })
       }
 
       const amenityItems = gridRef.current?.querySelectorAll(".amenity-item")
       if (amenityItems) {
-        gsap.fromTo(amenityItems, { opacity: 0, y: 30 }, { opacity: 1, y: 0, stagger: 0.08, duration: 0.5, ease: "power2.out", scrollTrigger: { trigger: gridRef.current, start: "top 80%" } })
+        gsap.fromTo(amenityItems, { opacity: 0, y: 20 }, { opacity: 1, y: 0, stagger: 0.05, duration: 0.3, ease: "power2.out", scrollTrigger: { trigger: gridRef.current, start: "top 90%" } })
       }
 
       const roadItems = roadsRef.current?.querySelectorAll(".road-item")
       if (roadItems) {
-        gsap.fromTo(roadItems, { opacity: 0, x: -20 }, { opacity: 1, x: 0, stagger: 0.1, duration: 0.5, ease: "power2.out", scrollTrigger: { trigger: roadsRef.current, start: "top 85%" } })
+        gsap.fromTo(roadItems, { opacity: 0, x: -20 }, { opacity: 1, x: 0, stagger: 0.05, duration: 0.3, ease: "power2.out", scrollTrigger: { trigger: roadsRef.current, start: "top 95%" } })
       }
     }, sectionRef)
 
@@ -106,7 +106,7 @@ export default function Location() {
             />
             <div className="p-3 bg-zinc-800 text-center flex-1 flex flex-col justify-center">
               <p className="text-zinc-300 text-sm">📍 Phú Xuân, Đắk Nia, Gia Nghĩa, Đắk Nông</p>
-              <p className="text-zinc-500 text-xs mt-1">Cách QL28 chỉ 600m — View trực diện hồ Đắk Nia</p>
+              <p className="text-zinc-500 text-xs mt-1">Cách QL28 chỉ 600m — View trực diện Hồ Tà Đùng</p>
             </div>
           </div>
         </div>

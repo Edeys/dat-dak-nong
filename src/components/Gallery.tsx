@@ -20,9 +20,9 @@ export default function Gallery() {
     const ctx = gsap.context(() => {
       ScrollTrigger.create({
         trigger: headlineRef.current,
-        start: "top 85%",
+        start: "top 95%",
         onEnter: () => {
-          gsap.fromTo(headlineRef.current, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" })
+          gsap.fromTo(headlineRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" })
         },
       })
     }, sectionRef)
@@ -39,11 +39,11 @@ export default function Gallery() {
         y: 0,
         scale: 1,
         duration: 0.5,
-        stagger: 0.1,
+        stagger: 0.05,
         ease: "power2.out",
         scrollTrigger: {
           trigger: gridRef.current,
-          start: "top 85%",
+          start: "top 95%",
         },
       })
     }

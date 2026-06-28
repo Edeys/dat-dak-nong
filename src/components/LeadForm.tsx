@@ -25,12 +25,12 @@ export default function LeadForm() {
     const ctx = gsap.context(() => {
       ScrollTrigger.create({
         trigger: headlineRef.current,
-        start: "top 85%",
+        start: "top 95%",
         onEnter: () => {
-          gsap.fromTo(headlineRef.current, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" })
+          gsap.fromTo(headlineRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" })
         },
       })
-      gsap.fromTo(formRef.current, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.8, ease: "power2.out", scrollTrigger: { trigger: formRef.current, start: "top 85%" } })
+      gsap.fromTo(formRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out", scrollTrigger: { trigger: formRef.current, start: "top 95%" } })
     }, sectionRef)
 
     return () => ctx.revert()
