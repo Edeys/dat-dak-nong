@@ -21,14 +21,21 @@ export default function LeadForm() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      ScrollTrigger.create({
-        trigger: headlineRef.current,
-        start: "top 95%",
-        onEnter: () => {
-          gsap.fromTo(headlineRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" })
-        },
+      const mm = gsap.matchMedia()
+      mm.add("(min-width: 768px)", () => {
+        ScrollTrigger.create({
+          trigger: headlineRef.current,
+          start: "top 95%",
+          onEnter: () => {
+            gsap.fromTo(headlineRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" })
+          },
+        })
+        gsap.fromTo(formRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out", scrollTrigger: { trigger: formRef.current, start: "top 95%" } })
       })
-      gsap.fromTo(formRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out", scrollTrigger: { trigger: formRef.current, start: "top 95%" } })
+      mm.add("(max-width: 767px)", () => {
+        if (headlineRef.current) gsap.set(headlineRef.current, { opacity: 1 })
+        if (formRef.current) gsap.set(formRef.current, { opacity: 1 })
+      })
     }, sectionRef)
 
     return () => ctx.revert()

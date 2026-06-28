@@ -15,20 +15,27 @@ export default function Trust() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      const stItems = storyRef.current?.querySelectorAll(".story-item")
-      if (stItems) {
-        gsap.fromTo(stItems, { opacity: 0, x: -20 }, { opacity: 1, x: 0, stagger: 0.1, duration: 0.3, ease: "power2.out", scrollTrigger: { trigger: storyRef.current, start: "top 90%" } })
-      }
-      const crItems = credRef.current?.querySelectorAll(".cred-item")
-      if (crItems) {
-        gsap.fromTo(crItems, { opacity: 0, y: 20 }, { opacity: 1, y: 0, stagger: 0.05, duration: 0.3, ease: "power2.out", scrollTrigger: { trigger: credRef.current, start: "top 90%" } })
-      }
-      const invItems = scarcityRef.current?.querySelectorAll(".inv-item")
-      if (invItems) {
-        gsap.fromTo(invItems, { opacity: 0, y: 20 }, { opacity: 1, y: 0, stagger: 0.1, duration: 0.3, ease: "power2.out", scrollTrigger: { trigger: scarcityRef.current, start: "top 90%" } })
-      }
+      const mm = gsap.matchMedia()
+      mm.add("(min-width: 768px)", () => {
+        const stItems = storyRef.current?.querySelectorAll(".story-item")
+        if (stItems) {
+          gsap.fromTo(stItems, { opacity: 0, x: -20 }, { opacity: 1, x: 0, stagger: 0.1, duration: 0.3, ease: "power2.out", scrollTrigger: { trigger: storyRef.current, start: "top 90%" } })
+        }
+        const crItems = credRef.current?.querySelectorAll(".cred-item")
+        if (crItems) {
+          gsap.fromTo(crItems, { opacity: 0, y: 20 }, { opacity: 1, y: 0, stagger: 0.05, duration: 0.3, ease: "power2.out", scrollTrigger: { trigger: credRef.current, start: "top 90%" } })
+        }
+        const invItems = scarcityRef.current?.querySelectorAll(".inv-item")
+        if (invItems) {
+          gsap.fromTo(invItems, { opacity: 0, y: 20 }, { opacity: 1, y: 0, stagger: 0.1, duration: 0.3, ease: "power2.out", scrollTrigger: { trigger: scarcityRef.current, start: "top 90%" } })
+        }
+      })
+      mm.add("(max-width: 767px)", () => {
+        const st = storyRef.current?.querySelectorAll(".story-item"); if (st) gsap.set(st, { opacity: 1, x: 0 })
+        const cr = credRef.current?.querySelectorAll(".cred-item"); if (cr) gsap.set(cr, { opacity: 1, y: 0 })
+        const inv = scarcityRef.current?.querySelectorAll(".inv-item"); if (inv) gsap.set(inv, { opacity: 1, y: 0 })
+      })
     }, sectionRef)
-
     return () => ctx.revert()
   }, [])
 

@@ -18,34 +18,38 @@ export default function Gallery() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      ScrollTrigger.create({
-        trigger: headlineRef.current,
-        start: "top 95%",
-        onEnter: () => {
-          gsap.fromTo(headlineRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" })
-        },
+      const mm = gsap.matchMedia()
+      mm.add("(min-width: 768px)", () => {
+        ScrollTrigger.create({
+          trigger: headlineRef.current,
+          start: "top 95%",
+          onEnter: () => {
+            gsap.fromTo(headlineRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" })
+          },
+        })
+      })
+      mm.add("(max-width: 767px)", () => {
+        if (headlineRef.current) gsap.set(headlineRef.current, { opacity: 1 })
       })
     }, sectionRef)
-
     return () => ctx.revert()
   }, [])
 
   useEffect(() => {
     const items = gridRef.current?.querySelectorAll(".gallery-item")
     if (items && items.length > 0) {
-      gsap.set(items, { opacity: 0, y: 0, scale: 1 })
-      gsap.to(items, {
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        duration: 0.5,
-        stagger: 0.05,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: gridRef.current,
-          start: "top 95%",
-        },
+      const mm = gsap.matchMedia()
+      mm.add("(min-width: 768px)", () => {
+        gsap.set(items, { opacity: 0 })
+        gsap.to(items, {
+          opacity: 1, duration: 0.5, stagger: 0.05, ease: "power2.out",
+          scrollTrigger: { trigger: gridRef.current, start: "top 95%" },
+        })
       })
+      mm.add("(max-width: 767px)", () => {
+        gsap.set(items, { opacity: 1 })
+      })
+      return () => mm.revert()
     }
   }, [activeTab])
 

@@ -13,11 +13,13 @@ export default function Hero() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      gsap.fromTo(
-        contentRef.current,
-        { opacity: 0, y: 60 },
-        { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" }
-      )
+      const mm = gsap.matchMedia()
+      mm.add("(min-width: 768px)", () => {
+        gsap.fromTo(contentRef.current, { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 1.2, ease: "power3.out" })
+      })
+      mm.add("(max-width: 767px)", () => {
+        gsap.fromTo(contentRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" })
+      })
     }, sectionRef)
 
     return () => ctx.revert()
