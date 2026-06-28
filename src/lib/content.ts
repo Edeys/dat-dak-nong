@@ -102,7 +102,7 @@ export const storyContent = {
     label: "Sau khi sở hữu lô đất này",
     points: [
       "Có ngay vườn cây đang cho thu hoạch: cà phê 4 tấn, sầu riêng 3 tấn, tiêu 5 tạ/năm",
-      "Vị trí đắc địa: view thác Liêng Nung + Hồ Tà Đùng, tiềm năng farmstay rất lớn",
+      "Vị trí đắc địa: view thác Liêng Nung & Hồ Đắk Nia, gần Hồ Tà Đùng, tiềm năng farmstay rất lớn",
       "Cơ sở hạ tầng hoàn chỉnh: đường 5-8m, điện 3 pha, nước suối quanh năm",
       "Địa hình thoải, dễ quy hoạch: làm vườn, làm farmstay, tích sản đều phù hợp",
     ],
@@ -112,30 +112,30 @@ export const storyContent = {
 export const galleryContent = {
   headline: "Hình ảnh & Video thực tế lô đất",
   images: [
-    { url: "images/daknong-1.jpg?t=1782681026", alt: "Toàn cảnh view thác Liêng Nung và Hồ Tà Đùng từ lô đất", caption: "View trực diện thác Liêng Nung & Hồ Tà Đùng" },
-    { url: "images/daknong-2.jpg?t=1782681026", alt: "Vườn cây ăn trái đang phát triển trên đất", caption: "Vườn cây xanh tốt — đất đai màu mỡ" },
-    { url: "images/daknong-3.jpg?t=1782681026", alt: "Cảnh quan lô đất rộng rãi thoáng đãng", caption: "Không gian rộng ~2.2ha — thoải, dễ quy hoạch" },
-    { url: "images/daknong-4.jpg?t=1782681026", alt: "Toàn cảnh lô đất từ flycam", caption: "Flycam tổng quan — địa hình thoải, view hồ" },
-    { url: "images/daknong-5.jpg?t=1782681026", alt: "Lô đất nhìn từ trên cao với view Hồ Tà Đùng", caption: "View flycam — Hồ Tà Đùng & thác Liêng Nung" },
-    { url: "images/daknong-6.jpg?t=1782681026", alt: "Sổ đỏ chính chủ diện tích 19.445m²", caption: "Sổ đỏ chính chủ — sang tên nhanh chóng" },
-    { url: "images/daknong-7.jpg?t=1782681026", alt: "Vườn cà phê đang cho thu hoạch", caption: "Cà phê 1ha — 4 tấn nhân/năm" },
-    { url: "images/daknong-8.jpg?t=1782681026", alt: "Vườn sầu riêng 100 cây đang thu hoạch", caption: "Sầu riêng 100 cây — 3 tấn/năm" },
-    { url: "images/daknong-9.jpg?t=1782681026", alt: "Đường vào lô đất rộng 5-8m", caption: "Đường 5-8m, ô tô vào tận nơi" },
-    { url: "images/daknong-10.jpg?t=1782681026", alt: "Vườn hồ tiêu 0.5 sào", caption: "Hồ tiêu 0.5 sào — 5 tạ/năm" },
-    { url: "images/daknong-11.jpg?t=1782681026", alt: "Toàn cảnh khu vực từ flycam", caption: "Flycam — tổng quan vị trí đắc địa" },
+    { url: "images/daknong-1.jpg?t=1782683112", alt: "Toàn cảnh view thác Liêng Nung và Hồ Đắk Nia từ lô đất", caption: "View trực diện thác Liêng Nung & Hồ Đắk Nia" },
+    { url: "images/daknong-2.jpg?t=1782683112", alt: "Vườn cây ăn trái đang phát triển trên đất", caption: "Vườn cây xanh tốt — đất đai màu mỡ" },
+    { url: "images/daknong-3.jpg?t=1782683112", alt: "Cảnh quan lô đất rộng rãi thoáng đãng", caption: "Không gian rộng ~2.2ha — thoải, dễ quy hoạch" },
+    { url: "images/daknong-4.jpg?t=1782683112", alt: "Toàn cảnh lô đất từ flycam", caption: "Flycam tổng quan — địa hình thoải, view hồ" },
+    { url: "images/daknong-5.jpg?t=1782683112", alt: "Lô đất nhìn từ trên cao với view Hồ Đắk Nia", caption: "View flycam — Hồ Đắk Nia & thác Liêng Nung" },
+    { url: "images/daknong-6.jpg?t=1782683112", alt: "Sổ đỏ chính chủ diện tích 19.445m²", caption: "Sổ đỏ chính chủ — sang tên nhanh chóng" },
+    { url: "images/daknong-7.jpg?t=1782683112", alt: "Vườn cà phê đang cho thu hoạch", caption: "Cà phê 1ha — 4 tấn nhân/năm" },
+    { url: "images/daknong-8.jpg?t=1782683112", alt: "Vườn sầu riêng 100 cây đang thu hoạch", caption: "Sầu riêng 100 cây — 3 tấn/năm" },
+    { url: "images/daknong-9.jpg?t=1782683112", alt: "Đường vào lô đất rộng 5-8m", caption: "Đường 5-8m, ô tô vào tận nơi" },
+    { url: "images/daknong-10.jpg?t=1782683112", alt: "Vườn hồ tiêu 0.5 sào", caption: "Hồ tiêu 0.5 sào — 5 tạ/năm" },
+    { url: "images/daknong-11.jpg?t=1782683112", alt: "Toàn cảnh khu vực từ flycam", caption: "Flycam — tổng quan vị trí đắc địa" },
   ],
   videos: [
-    { url: "videos/hero-bg.mp4?t=1782681026", poster: "images/daknong-4.jpg?t=1782681026", alt: "Toàn cảnh lô đất từ flycam — view thác Liêng Nung & Hồ Tà Đùng", caption: "Flycam toàn cảnh — view thác Liêng Nung & Hồ Tà Đùng" },
-    { url: "images/hero-video.mp4?t=1782681026", poster: "images/daknong-9.jpg?t=1782681026", alt: "Đường 5-8m, ô tô vào tận nơi", caption: "Đường 5-8m, ô tô vào tận nơi — video thực tế" },
-    { url: "images/daknong-video-1.mp4?t=1782681026", poster: "images/daknong-7.jpg?t=1782681026", alt: "Vườn cà phê và sầu riêng trên đất", caption: "Vườn cây xanh tốt — video tổng quan" },
-    { url: "images/daknong-video-2.mp4?t=1782681026", poster: "images/daknong-1.jpg?t=1782681026", alt: "Không gian lô đất rộng rãi thoáng đãng", caption: "Không gian lô đất — video thực tế" },
+    { url: "videos/hero-bg.mp4?t=1782683112", poster: "images/daknong-4.jpg?t=1782683112", alt: "Toàn cảnh lô đất từ flycam — view thác Liêng Nung & Hồ Đắk Nia", caption: "Flycam toàn cảnh — view thác Liêng Nung & Hồ Đắk Nia" },
+    { url: "images/hero-video.mp4?t=1782683112", poster: "images/daknong-9.jpg?t=1782683112", alt: "Đường 5-8m, ô tô vào tận nơi", caption: "Đường 5-8m, ô tô vào tận nơi — video thực tế" },
+    { url: "images/daknong-video-1.mp4?t=1782683112", poster: "images/daknong-7.jpg?t=1782683112", alt: "Vườn cà phê và sầu riêng trên đất", caption: "Vườn cây xanh tốt — video tổng quan" },
+    { url: "images/daknong-video-2.mp4?t=1782683112", poster: "images/daknong-1.jpg?t=1782683112", alt: "Không gian lô đất rộng rãi thoáng đãng", caption: "Không gian lô đất — video thực tế" },
   ],
 }
 
 export const locationContent = {
-  headline: "Vị trí đắc địa — View thác Liêng Nung & Hồ Tà Đùng",
+  headline: "Vị trí đắc địa — View thác Liêng Nung & Hồ Đắk Nia",
   subheadline: "Phú Xuân, Đắk Nia, Gia Nghĩa, Đắk Nông",
-  description: "Lô đất nằm tại Phú Xuân, Đắk Nia, cách Quốc lộ 28 chỉ 600m. Vị trí view trực diện thác Liêng Nung và Hồ Tà Đùng — một trong những thắng cảnh đẹp nhất của tỉnh Đắk Nông. Hồ Tà Đùng được mệnh danh \"Hạ Long trên cạn\" với mặt hồ trong xanh, đảo đá vôi kỳ vĩ, là điểm du lịch sinh thái nổi tiếng khu vực Tây Nguyên.",
+  description: "Lô đất nằm tại Phú Xuân, Đắk Nia, cách Quốc lộ 28 chỉ 600m. View trực diện thác Liêng Nung và gần Hồ Đắk Nia. Khu vực giáp ranh các điểm du lịch nổi tiếng như Hồ Tà Đùng (~27km) — \"Hạ Long trên cạn\" của Tây Nguyên, Eva Village, Hama Village.",
   mapUrl: "https://maps.app.goo.gl/ExjuQjjRqZLpdYA49",
   nearbyRoads: [
     { name: "Quốc lộ 28", distance: "600m", desc: "Trục đường chính kết nối Gia Nghĩa - Bình Thuận" },
@@ -144,9 +144,10 @@ export const locationContent = {
   ],
   amenities: [
     { name: "Thác Liêng Nung", distance: "2 km (trekking)", time: "trekking 2km", icon: "🏔️", desc: "Thác nước hùng vĩ, điểm du lịch nổi tiếng" },
-    { name: "Hồ Tà Đùng", distance: "~5 km", time: "10 phút", icon: "🌊", desc: "Hồ nước ngọt lớn nhất Đắk Nông — \"Hạ Long trên cạn\", 40 đảo đá vôi, view toàn cảnh từ trên cao" },
+    { name: "Hồ Đắk Nia", distance: "~2.7 km", time: "5 phút", icon: "🌊", desc: "Hồ nước ngọt quanh năm, view gần lô đất" },
+    { name: "Hồ Tà Đùng", distance: "~27 km", time: "30 phút", icon: "🏞️", desc: "Khu du lịch sinh thái nổi tiếng — \"Hạ Long trên cạn\" với 40 đảo đá vôi" },
     { name: "Eva Village", distance: "~4 km", time: "5 phút", icon: "🏡", desc: "Khu du lịch sinh thái nổi tiếng Đắk Nông" },
-    { name: "Hama Village", distance: "~1 km", time: "2 phút", icon: "🏡", desc: "Khu nghỉ dưỡng homestay view hồ Tà Đùng" },
+    { name: "Hama Village", distance: "~1 km", time: "2 phút", icon: "🏡", desc: "Khu nghỉ dưỡng homestay view hồ Đắk Nia" },
     { name: "Trung tâm Gia Nghĩa", distance: "8 km", time: "10 phút", icon: "🏙️", desc: "Trung tâm hành chính tỉnh Đắk Nông" },
     { name: "Chợ Đắk Nia", distance: "~3 km", time: "5 phút", icon: "🛒", desc: "Chợ địa phương, đầy đủ nhu yếu phẩm" },
     { name: "QL28", distance: "600m", time: "1 phút", icon: "🛣️", desc: "Kết nối giao thông thuận tiện" },
@@ -180,7 +181,7 @@ export const investmentComparison = {
       color: "emerald",
     },
   ],
-    conclusion: "Đầu tư đất vườn: vừa giữ tiền, vừa có thu nhập hàng năm ổn định. View thác Liêng Nung và Hồ Tà Đùng cực kỳ hiếm — tiềm năng phát triển farmstay rất lớn.",
+    conclusion: "Đầu tư đất vườn: vừa giữ tiền, vừa có thu nhập hàng năm ổn định. View thác Liêng Nung cực kỳ hiếm — tiềm năng phát triển farmstay rất lớn.",
 }
 
 export const expansionContent = {
@@ -196,7 +197,7 @@ export const routeContent = {
     { position: "Quốc lộ 28 (ngã ba Đắk Nia)", icon: "🛣️" },
     { position: "Rẽ vào đường Phú Xuân 600m", icon: "↪️" },
     { position: "Đường đất đỏ 5-8m", icon: "🚗" },
-    { position: "Đến lô đất — view Hồ Tà Đùng", icon: "🏠" },
+    { position: "Đến lô đất — view thác Liêng Nung & Hồ Đắk Nia", icon: "🏠" },
   ],
 }
 
@@ -228,7 +229,7 @@ export const faqContent = {
     },
     {
       q: "Có thể làm farmstay được không?",
-      a: "View trực diện thác Liêng Nung và Hồ Tà Đùng — một trong những vị trí đẹp nhất khu vực. Hồ Tà Đùng được mệnh danh \"Hạ Long trên cạn\" với 40 đảo đá vôi, mặt hồ trong xanh quanh năm. Địa hình thoải, có cung trekking 2km xuyên rừng xuống thác, rất phù hợp làm farmstay, homestay.",
+      a: "View trực diện thác Liêng Nung và Hồ Đắk Nia — một trong những vị trí đẹp nhất khu vực. Địa hình thoải, có cung trekking 2km xuyên rừng xuống thác. Gần các khu du lịch Hồ Tà Đùng (~27km), Eva Village, Hama Village — rất phù hợp làm farmstay, homestay.",
     },
     {
       q: "Giá có thương lượng không? Thủ tục mua bán thế nào?",

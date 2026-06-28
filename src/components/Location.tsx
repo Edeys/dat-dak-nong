@@ -106,7 +106,7 @@ export default function Location() {
             />
             <div className="p-3 bg-zinc-800 text-center flex-1 flex flex-col justify-center">
               <p className="text-zinc-300 text-sm">📍 Phú Xuân, Đắk Nia, Gia Nghĩa, Đắk Nông</p>
-              <p className="text-zinc-500 text-xs mt-1">Cách QL28 chỉ 600m — View trực diện Hồ Tà Đùng</p>
+              <p className="text-zinc-500 text-xs mt-1">Cách QL28 chỉ 600m — View trực diện thác Liêng Nung & Hồ Đắk Nia</p>
             </div>
           </div>
         </div>
