@@ -1,0 +1,12 @@
+name = "lead-to-telegram"
+main = "lead-to-telegram.js"
+compatibility_date = "2026-06-28"
+
+routes = [
+  { pattern = "dautudatnongnghiep.com/api/*", zone_id = "600a8ccdb334e15c4912ae8e9e42f2fb" }
+]
+
+[vars]
+TELEGRAM_BOT_TOKEN = "8242311923:AAHw08AyHav5kZSDz8nRBZ6AEQczPGLGXsg"
+TELEGRAM_CHAT_ID = "5042716696"
+ALLOWED_ORIGIN = "dautudatnongnghiep.com"

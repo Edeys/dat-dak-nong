@@ -7,10 +7,13 @@ import { leadFormContent, siteConfig } from "@/lib/content"
 
 gsap.registerPlugin(ScrollTrigger)
 
+const WORKER_URL = "https://dautudatnongnghiep.com/api/lead"
+
 export default function LeadForm() {
   const [step, setStep] = useState(1)
   const [formData, setFormData] = useState({ name: "", phone: "", need: "investor", note: "" })
   const [submitted, setSubmitted] = useState(false)
+  const [sending, setSending] = useState(false)
   const sectionRef = useRef<HTMLElement>(null)
   const headlineRef = useRef<HTMLHeadingElement>(null)
   const formRef = useRef<HTMLDivElement>(null)
@@ -30,9 +33,29 @@ export default function LeadForm() {
     return () => ctx.revert()
   }, [])
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const sendToWorker = async () => {
+    try {
+      const res = await fetch(WORKER_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      })
+      return res.ok
+    } catch {
+      return false
+    }
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    setSending(true)
+    const ok = await sendToWorker()
+    if (!ok) {
+      const fallbackMsg = "Không gửi được. Anh/chị gọi trực tiếp 034.857.9065 nhé!"
+      alert(fallbackMsg)
+    }
     setSubmitted(true)
+    setSending(false)
   }
 
   return (
@@ -104,9 +127,9 @@ export default function LeadForm() {
                       className="flex-1 bg-zinc-800 hover:bg-zinc-700 text-white font-medium py-3.5 rounded-xl transition-colors">
                       Quay lại
                     </button>
-                    <button type="submit"
-                      className="flex-[2] bg-amber-500 hover:bg-amber-400 text-zinc-900 font-semibold py-3.5 rounded-xl transition-colors text-lg">
-                      {leadFormContent.cta}
+                    <button type="submit" disabled={sending}
+                      className="flex-[2] bg-amber-500 hover:bg-amber-400 disabled:bg-amber-700 text-zinc-900 font-semibold py-3.5 rounded-xl transition-colors text-lg">
+                      {sending ? "Đang gửi..." : leadFormContent.cta}
                     </button>
                   </div>
                 </div>
