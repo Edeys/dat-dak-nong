@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+declare global { interface Window { dataLayer: any[] } }
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { leadFormContent, siteConfig } from "@/lib/content"
@@ -56,6 +57,9 @@ export default function LeadForm() {
     }
     setSubmitted(true)
     setSending(false)
+    if (typeof window !== "undefined" && window.dataLayer) {
+      window.dataLayer.push({ event: "lead_submitted", lead_need: formData.need })
+    }
   }
 
   return (
