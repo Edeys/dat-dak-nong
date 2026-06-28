@@ -236,10 +236,6 @@ export const faqContent = {
       a: "Giá 240 triệu/sào (có thương lượng). Đặt cọc → Công chứng hợp đồng → Nộp hồ sơ → Đóng thuế → Nhận sổ mới (15-30 ngày). Hoa hồng đầy đủ cho môi giới.",
     },
     {
-      q: "Đất này có thể canh tác hữu cơ (organic) được không?",
-      a: "Hoàn toàn được. Lô đất đã nghỉ canh tác hơn 10 năm, không sử dụng phân bón hóa học hay thuốc diệt cỏ. Hệ vi sinh vật bản địa phục hồi tự nhiên, tạo nền tảng lý tưởng để đạt chứng nhận organic — rút ngắn thời gian chuyển đổi so với đất thông thường.",
-    },
-    {
       q: "Có lao động tại chỗ để thuê làm vườn không?",
       a: "Có. Khu vực Phú Xuân, Đắk Nia có lao động bản địa dồi dào, quen với việc canh tác cà phê, sầu riêng, hồ tiêu. Chi phí nhân công thấp hơn so với các tỉnh lân cận.",
     },
